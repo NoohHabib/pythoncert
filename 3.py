@@ -1,0 +1,6 @@
+n= int(input())
+english=set(map(int,input().split()))
+b=int(input())
+french=set(map(int,input().split()))
+common_subscribers= english.intersection(french)
+print(len(common_subscribers))
